@@ -14,6 +14,15 @@ I worked across the backend, frontend, and data model, with a focus on sprint de
 - **Account & settings** — password change, email change with verification, per-project notification preferences
 - **Attachment storage** — migrated file attachments from database blobs to Supabase object storage
 
+## Screenshots
+
+<img width="1882" height="905" alt="image" src="https://github.com/user-attachments/assets/fc86d226-63a7-4a45-a7c9-008ee5bac0f3" />
+<img width="1897" height="923" alt="image" src="https://github.com/user-attachments/assets/21d28ec0-a13d-4581-ba68-e702859def91" />
+<img width="1872" height="927" alt="image" src="https://github.com/user-attachments/assets/47d590cf-f570-46d0-a682-512644780b4b" />
+<img width="1312" height="827" alt="image" src="https://github.com/user-attachments/assets/99fa1e87-6dd6-4988-98da-aa22e98199a7" />
+
+
+
 ## Documentation
 
 - [API documentation](docs/API.md)
