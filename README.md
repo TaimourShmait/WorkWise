@@ -2,6 +2,18 @@
 
 WorkWise is an AI-assisted project management workspace for small development teams. It brings project planning, sprint execution, kanban task tracking, documentation, notifications, and AI-generated planning support into one full-stack application.
 
+> **Note:** This is a fork of a team project built during an internship at Aspire GDC by a team of three developers, shared with permission.
+
+## My Contributions
+I worked across the backend, frontend, and data model, with a focus on sprint delivery and AI features:
+
+- **AI planning features** — task breakdown, acceptance-criteria generation, natural-language task search, sprint suggestions, sprint risk analysis, and retrospective generation (Google Gemini integration: prompt design, response parsing, validation, and rate limiting)
+- **Sprint planning & delivery analytics** — sprint capacity planning and velocity-based forecasting
+- **Custom workflow statuses** — refactored task status from a fixed enum into user-definable, per-project workflow statuses with status categories, migrating the existing data model across the app (board, sprints, analytics, AI)
+- **Task hierarchy & estimation** — Jira-style parent/child subtasks and task types, replacing time-based estimates with Fibonacci story points across the codebase
+- **Account & settings** — password change, email change with verification, per-project notification preferences
+- **Attachment storage** — migrated file attachments from database blobs to Supabase object storage
+
 ## Documentation
 
 - [API documentation](docs/API.md)
